@@ -3,7 +3,7 @@ version: '2'
 services:
     mongo:
       image: mongo
-      container_name: mongo_volume
+      container_name: nodeblog
       ports:
         - "27017:27017"
       volumes:

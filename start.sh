@@ -1,2 +1,2 @@
-docker-compose up
+docker-compose up -d
 nodemon ./bin/www 
