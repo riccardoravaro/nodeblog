@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    mongo:
+      image: mongo
+      container_name: mongo_volume
+      ports:
+        - "27017:27017"
+      volumes:
+        - ./db:/data/db 
